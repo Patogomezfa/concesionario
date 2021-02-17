@@ -1,0 +1,76 @@
+/*--------------- NAVBAR */
+
+.nav-transparencia {
+    background-color: #ffffff;
+    opacity: 0.9;
+    transition: all 0.6s ease;
+}
+
+.logo-nav {
+    height: 80px;
+}
+
+.redes-sociales {
+    display: inline;
+}
+
+.redes-sociales a i {
+    color: red;
+    font-size: 1.8em;
+    margin-right: 20px;
+    opacity: 0.6;
+}
+
+.iconos-redes a i {
+    color: black;
+    font-size: 1.8em;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+
+.redes-sociales a:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav li {
+    font-size: 1.2em;
+    margin-left: 2em;
+}
+
+.navbar-nav li a:hover,
+.redes-sociales a i:hover {
+    color: orange !important;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+
+/*----------------GLOBALES*/
+
+body {
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #353535;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    color: #353535;
+    text-transform: uppercase;
+}
+
+.subtitulo-400 {
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.cambio {
+    transition: all 10s ease-out;
+}
